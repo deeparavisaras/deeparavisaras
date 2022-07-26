@@ -34,8 +34,6 @@
 
     }
 
-
-
     .container1 {
         width: 100%;
         overflow: none;
@@ -46,19 +44,12 @@
 
     .name {
         font-size: 40px;
-        color: rgb(210, 240, 104);
-        text-shadow: 5px 3px rgba(129, 151, 4, 0.863);
         animation: 2s slide-up;
-        cursor: pointer;
-
     }
 
     .qualification {
         font-size: 15px;
-        display: inline-block;
-        color: rgb(223, 230, 200);
         animation: 5s slide-up;
-
     }
 
     @keyframes slide-up {
@@ -149,37 +140,11 @@
         padding: 5px;
     }
 
-    footer {
-        bottom: 0px;
-        height: 100px;
-        background-color: rgba(236, 191, 197, 0.301);
-    }
-
-    .foot_content {
-        bottom: 0px;
-        margin-top: 30px;
-        color: blanchedalmond;
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-    }
-
     .subfoot {
         height: 30px;
-        padding-right: 10px;
-        width: auto;
-        text-align: center;
-        color: rgb(128, 45, 45);
-        font-size: 20px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
-
-    .linkedin {
-        height: 30px;
-        width: 30px;
-        cursor: pointer;
+    .copyrights p{
+        font-size: 15px;
     }
-
-
 
 }
