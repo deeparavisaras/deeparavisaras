@@ -1,0 +1,162 @@
+.main_container {
+    overflow: none;
+    padding: 10px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.container1 {
+    width: 100%;
+    overflow: none;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.name {
+    font-size: 90px;
+    color: rgb(210, 240, 104);
+    text-shadow: 5px 3px rgba(129, 151, 4, 0.863);
+    animation: 2s slide-up;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+.qualification {
+    font-size: 30px;
+    display: inline-block;
+    color: rgb(223, 230, 200);
+    animation: 5s slide-up;
+
+}
+
+@keyframes slide-up {
+    from {
+        margin-top: 10%;
+    }
+
+    to {
+        margin-top: 0%;
+    }
+}
+
+
+.container2 {
+    width: 95%;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: rgba(239, 218, 247, 0.692);
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    overflow: none;
+}
+
+.profile_picture_container {
+    width: 500px;
+    height: auto;
+}
+
+.profile_picture {
+    width: 500px;
+    height: 500px;
+    display: inherit;
+    padding: 20px;
+}
+
+.intro {
+    width: 40%;
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.heading {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.container3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.subcontainer {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(204, 236, 212, 0.712);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
+        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.skill {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.skill_desc {
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+.blog {
+    font-size: 15px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+
+footer {
+    bottom: 0px;
+    height: 100px;
+    background-color: rgba(236, 191, 197, 0.301);
+}
+
+.foot_content {
+    bottom: 0px;
+    margin-top: 30px;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.subfoot {
+    height: 20px;
+    width: auto;
+    padding-right: 20px;
+    text-align: center;
+    color: rgb(128, 45, 45);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.linkedin {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
