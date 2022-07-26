@@ -19,8 +19,8 @@
 
 .name {
     font-size: 90px;
-    color: rgb(210, 240, 104);
-    text-shadow: 5px 3px rgba(129, 151, 4, 0.863);
+    color: rgb(252, 21, 4);
+    text-shadow: 5px 3px rgba(128, 37, 9, 0.863);
     animation: 2s slide-up;
     cursor: pointer;
     font-weight: 700;
@@ -72,13 +72,15 @@
 }
 
 .intro {
-    width: 40%;
-    padding-top: 30px;
+    width: auto;
+    height: auto;
+    padding: 20px 20px;
     font-size: 20px;
     text-align: justify;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
 }
 
 .heading {

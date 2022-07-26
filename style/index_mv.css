@@ -100,8 +100,8 @@
 
     .intro {
         width: 100%;
-        padding: 10px 5px;
-        font-size: 20px;
+        padding: 10px 10px;
+        font-size: 15px;
         text-align: justify;
         display: flex;
         justify-content: space-around;
